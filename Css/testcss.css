@@ -1,0 +1,248 @@
+ 
+ li a{
+    display: block;
+    text-decoration: none;
+    background-color: #DEB887;
+    padding: 17px 28px;
+    font-weight: 800;
+    font-size: 17px;
+    color: 	#800000;
+    border-radius: 1px;
+    -webkit-animation: movemytext 5.75s;
+    animation: movemytext 5.57s;
+    
+}
+@keyframes movemytext{
+    form{ top: -100vw;}
+    to{top: 0vw;}
+}
+@keyframes movenav{
+ form{top: -100vw;}
+ to{top: 0vw;}
+}
+li{
+   
+  float: left;
+  margin: 1.5px;
+  margin-top: 5px;
+  margin-left: 0px;
+   
+}
+ul{
+   margin: 0px;
+   width: 100%;
+   height: 65px;
+   right: 0; 
+   list-style-type:none;
+   background-color: #F5DEB3;
+   animation: movenav 5.57s;
+
+}
+li a:hover{
+    background-color: #CD853F;
+    color: #f3f8f4;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 2px;
+    box-sizing: 2px 3px;
+
+}
+.head_sec{
+    width: 100%;
+    height: 400px;
+    background-color: #CD853F;
+}
+body{
+    margin: 0px;
+}
+
+.animat_text{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 350px;
+    position: relative;  
+    opacity: 60%;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    animation: movenav 5.57s;
+}
+@keyframes movenav{
+    from {top: -100vw;} /* This sets the position of the video text to above the viewport */
+    to {top: 0vw;} /* This moves the video text to the normal positioning on the viewport */
+}
+.center{
+    text-align: center;
+}
+.head_sec{
+    background-color: #f7efe8;
+    width: 100%;
+    height: 410px;
+    position: relative;
+    margin: 0px;
+    padding-bottom: 10px;
+
+}
+.head_sec2{
+    background-color: #f7efe8;
+    width: 100%;
+    height: 410px;
+    position: relative;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+#hoz_nav{
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    font-size: 20px;
+    font-family: Avant Garde, Helvetica;
+
+}
+
+.sub_section{
+    width: 48%;
+    height: 400px;
+    background-color: #F5DEB3;
+    position: absolute;
+    
+    padding-left: 30px;
+}
+
+.sub_section2{
+    width:  48%;
+    height: 400px;
+    background-color: #debf98;
+    float: right;
+    right: 0px;
+    padding-right: 10px;
+}
+.sub_section3{
+    width:  48%;
+    height: 400px;
+    background-color:#debf98;
+    position: absolute;
+    padding-left: 30px;
+    text-align: center;
+
+}
+.sub_section4{
+    width:  48%;
+    height: 400px;
+    background-color:#F5DEB3; 
+    right: 0px;
+    position:absolute;
+    padding-right: 10px;
+}
+.my_footer{
+    width: 100%;
+    height: 300px;
+    background-color:#debf98;
+    position: relative;
+
+}
+#Type_video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%;
+}
+img{
+    filter: grayscale(75%);     
+    max-width: 100%;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    display: block;
+    padding-top: 15px;
+}
+
+img:hover{
+    filter: grayscale(5%);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+@media screen and (max-width: 576px){
+    img{
+        height: 100px;
+        margin-top: 150px;
+
+    }
+}    
+
+p{
+    font-family: Perpetua,Rokwell extra Bold;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p:hover{
+    transition: transform 1s;
+    transform: scale(1.01);
+}
+h1{
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Optima;
+    text-align: center;
+    margin-top: 3%;
+    color: #1a1a1a;
+}
+.center{
+    text-align: center;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Perpetua,Rockwell Extra Bold;
+
+}
+input[type="text"]:hover{
+    box-shadow: 0 0 5px #00004d inset;
+
+}
+input[type="submit"]{
+    background-color: #CD853F;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: #CD853F;
+    transform: scale(1.5);
+    transition: transform 1.5s;
+}
+form{
+    max-width: 90%;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    font-family: "Trebuchet MS", Optima;
+}
+footer{
+    padding: 2%;
+    background-color: white;
+}
